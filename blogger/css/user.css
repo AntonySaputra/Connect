@@ -1,0 +1,44 @@
+.top-menu img {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 20px;
+    border-radius: 100%;
+
+}
+
+.top-menu h4 {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    text-align: center;
+    border-radius: 100%;
+    
+}
+
+.cl-effect-16 {
+    margin-top: 0 !important;
+}
+
+.container {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+ 
+}
+
+.card {
+    margin-top: 40px;
+    background: #f2f2f2;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+    padding: 40px;
+}
+
+.card img {
+    border-radius: 100%;
+    margin-bottom: 20px;
+    max-height: 300px;
+    max-width: 300px;
+   
+}
