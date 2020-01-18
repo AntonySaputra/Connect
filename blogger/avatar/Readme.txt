@@ -1,0 +1,1 @@
+This folder is left blank to get images on the database in C:\xampp\htdocs\blogger\avatar
