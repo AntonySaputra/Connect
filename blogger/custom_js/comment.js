@@ -5,8 +5,8 @@ $("document").ready(function () {
         var user_id = $("#user_id").val();
         
 
-
-        var prohibited_words = new RegExp('nigga|faggot|fuck|fucking');
+        //excuse for the strong words
+        var prohibited_words = new RegExp('asshole|freak|fuck|fucking');
         if (prohibited_words.test(comment))
         {
             $("#comment_error").text("Your comment contains some prohibited words");

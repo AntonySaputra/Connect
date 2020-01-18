@@ -24,30 +24,6 @@ $(document).ready(function () {
                     if (password === confirm_password)
                     {
                         $("#form").submit();
-//                        $("#error2").text("");
-//                        $.ajax({
-//                            url: "login_session.php",
-//                            type: "post",
-//                            data: {username: username},
-//                            success: function (data) {
-//                                var logged_in = jQuery.parseJSON(data);
-//                                
-//                                if (logged_in)
-//                                {
-//
-//                                    $("#form").submit();
-//
-//                                } else
-//                                {
-//
-//                                    $("#error").text("fail to login, try again");
-//
-//                                }
-//                            }, error: function ()
-//                            {
-//                                alert("error");
-//                            }
-//                        });
                     } else
                     {
                         $("#error2").text("Password is not match");
